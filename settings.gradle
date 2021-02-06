@@ -1,0 +1,2 @@
+rootProject.name='Connotation Vibes'
+include ':app'

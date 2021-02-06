@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+    <TextView
+        android:id="@+id/articleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+    />
+
+    <TextView
+        android:id="@+id/articleSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/source"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/articleAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/author"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        />
+
+</LinearLayout>

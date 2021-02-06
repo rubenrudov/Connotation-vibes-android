@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+            <TextView
+                android:id="@+id/dialogTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@android:color/black"
+                android:paddingVertical="20dp"
+                android:text="No title"/>
+
+            <TextView
+                android:id="@+id/dialogSource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@android:color/black"
+                android:paddingVertical="20dp"
+                android:text="Unknown source"
+                android:layout_below="@id/dialogTitle"
+                />
+
+            <TextView
+                android:id="@+id/dialogAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@android:color/black"
+                android:paddingVertical="20dp"
+                android:text="Unknown author"
+                android:layout_below="@id/dialogSource"/>
+
+
+            <TextView
+                android:id="@+id/dialogContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="20dp"
+                android:textSize="22sp"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/dialogAuthor"
+                android:text="No content"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

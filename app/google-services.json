@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "344408092558",
+    "firebase_url": "https://conotation-vibes-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "conotation-vibes",
+    "storage_bucket": "conotation-vibes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344408092558:android:0080c4f1442ed10622bedf",
+        "android_client_info": {
+          "package_name": "com.connotation_vibes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344408092558-2erig4hn3jk3l5dbl7uhrgaanqsm76kd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN1Ozfnon509vHr-dtXE0VQhvtAlj7dag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344408092558-2erig4hn3jk3l5dbl7uhrgaanqsm76kd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
