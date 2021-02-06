@@ -129,11 +129,14 @@ public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.ViewHo
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
+            // Text view configuring
             this.dialogTitle = findViewById(R.id.dialogTitle);
             this.dialogSource = findViewById(R.id.dialogSource);
             this.dialogAuthor = findViewById(R.id.dialogAuthor);
             this.dialogContent = findViewById(R.id.dialogContent);
-            this.dialogContent.setText(Objects.requireNonNull(this.intent.getExtras()).getString("source"));
+            // Data setting into the text views of the dialog
+            this.dialogTitle.setText(Objects.requireNonNull(this.intent.getExtras()).getString("title"));
+            this.dialogSource.setText(Objects.requireNonNull(this.intent.getExtras()).getString("source"));
             this.dialogAuthor.setText(Objects.requireNonNull(this.intent.getExtras()).getString("author"));
             this.dialogContent.setText(Objects.requireNonNull(this.intent.getExtras()).getString("content"));
         }
@@ -143,7 +146,7 @@ public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.ViewHo
         Context context;
         Intent intent;
         TextView polarity, subjectivity;
-
+        // TODO: Transform it to a bar chart with 2 columns
         public BarChartDialog(@NonNull Context context, Intent intent) {
             super(context);
             this.context = context;
